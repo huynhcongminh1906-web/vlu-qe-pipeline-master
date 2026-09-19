@@ -6,6 +6,7 @@
  *
  * Tham số locked mô phỏng trạng thái tài khoản bị khóa.
  */
+// Feature update: validate login credentials
 function login(username, password, locked = false) {
 
     // Tài khoản bị khóa thì không được đăng nhập
