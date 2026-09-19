@@ -20,7 +20,7 @@ function login(username, password, locked = false) {
     }
 
     // Kiểm tra tài khoản hợp lệ
-    return username === 'admin' && password === '9999';
+    return username === 'admin' && password === '123';
 }
 
 module.exports = { login };
